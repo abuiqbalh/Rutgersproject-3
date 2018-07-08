@@ -1,5 +1,5 @@
 {
-  "name": "udemyExpress",
+  "name": "rutgersproject-3",
   "version": "1.0.0",
   "main": "index.js",
   "engines": {
@@ -13,7 +13,7 @@
     "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "keywords": [],
-  "author": "",
+  "author": "Abu Iqbal",
   "license": "ISC",
   "dependencies": {
     "cookie-session": "^2.0.0-beta.3",
@@ -23,5 +23,13 @@
     "passport-google-oauth20": "^1.0.0"
   },
   "devDependencies": {},
-  "description": ""
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abuiqbalh/Rutgersproject-3.git"
+  },
+  "bugs": {
+    "url": "https://github.com/abuiqbalh/Rutgersproject-3/issues"
+  },
+  "homepage": "https://github.com/abuiqbalh/Rutgersproject-3#readme",
+  "description": "Rutgers Project 3"
 }
