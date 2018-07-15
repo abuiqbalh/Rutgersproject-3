@@ -24,6 +24,7 @@ app.use(
 app.use(passport.initialize());
 app.use(passport.session());
 require("./route/authRoutes")(app);
+require('./route/htmlRoutes')(app)
 app.get('/', function(req, res){
   res.sendfile('./client/public/index.html')
 })
