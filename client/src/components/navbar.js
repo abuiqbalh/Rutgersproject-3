@@ -5,7 +5,7 @@ const Navbar = () => (
  
   <nav className="navbar navbar-expand-lg navbar-light bg-light">
      
-    <img src='./image/DreamElements2.jpg' style={{ paddingLeft: 0, paddingRight: 10 }} width="100" height="100"/>
+    <img src='./Asset/image/DreamElements2.jpg' style={{ paddingLeft: 0, paddingRight: 10 }} width="100" height="100"/>
   
     <NavLink className="navbar-brand" to="/">Dream Elements IT</NavLink>
     

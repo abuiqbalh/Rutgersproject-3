@@ -17,11 +17,11 @@ class FooterPage extends React.Component {
                                 <h6 className="mb-0 white-text">Get connected with us on social networks!</h6>
                             </Col>
                             <Col md="6" lg="7" className="text-center text-md-right">
-                                <a className="fb-ic ml-0"><i className="fa fa-facebook white-text mr-lg-4"> </i><img src={facebook} alt-text='logo' width="100" height="70"/></a>
-                                <a className="tw-ic"><i className="fa fa-twitter white-text mr-lg-4"> </i><img src={twitter} width="100" height="70"/></a>
-                                <a className="gplus-ic"><i className="fa fa-google-plus white-text mr-lg-4"> </i><img src={googleplus} style={{ paddingLeft: 0, paddingRight: 10 }} width="100" height="70" /></a>
-                                <a className="li-ic"><i className="fa fa-linkedin white-text mr-lg-4"> </i><img src={linkedin} width="100" height="70"/></a>
-                                <a className="ins-ic"><i className="fa fa-instagram white-text mr-lg-4"> </i><img src={instagram} width="100" height="70"/></a>
+                                <a className="fb-ic ml-0"><i className="fa fa-facebook white-text mr-lg-4"> </i><img src={facebook} alt-text='logo' width="50" height="50"/></a>
+                                <a className="tw-ic"><i className="fa fa-twitter white-text mr-lg-4"> </i><img src={twitter} width="50" height="50"/></a>
+                                <a className="gplus-ic"><i className="fa fa-google-plus white-text mr-lg-4"> </i><img src={googleplus} style={{ paddingLeft: 0, paddingRight: 10 }} width="50" height="50" /></a>
+                                <a className="li-ic"><i className="fa fa-linkedin white-text mr-lg-4"> </i><img src={linkedin} width="50" height="50"/></a>
+                                <a className="ins-ic"><i className="fa fa-instagram white-text mr-lg-4"> </i><img src={instagram} width="50" height="50"/></a>
                             </Col>
                         </Row>
                     </Container>
