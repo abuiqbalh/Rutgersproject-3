@@ -7,6 +7,8 @@ const passport = require('passport');
 require('./models/User');
 require("./services/passport");
 
+
+
 //mongoose.connect(keys.mongoURI);
 
 mongoose.connect(keys.mongoURI);
@@ -24,7 +26,7 @@ app.use(
 app.use(passport.initialize());
 app.use(passport.session());
 require("./route/authRoutes")(app);
-require('./route/htmlRoutes')(app)
+require('./route/htmlRoutes')(app);
 app.get('/', function(req, res){
   res.sendfile('./client/public/index.html')
 })
