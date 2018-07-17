@@ -29,6 +29,8 @@ app.use(passport.initialize());
 app.use(passport.session());
 require("./route/authRoutes")(app);
 // require('./route/htmlRoutes')(app);
+
+
 app.get("*", function(req, res) {
   res.sendFile(path.join(__dirname, "./client/build/index.html"));
 });
