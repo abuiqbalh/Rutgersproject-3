@@ -29,11 +29,14 @@ app.use(passport.initialize());
 app.use(passport.session());
 require("./route/authRoutes")(app);
 // require('./route/htmlRoutes')(app);
-
+if (process.env.NODE_ENV === "production") {
+  app.use(express.static("client/build"))
+}
 
 app.get("*", function(req, res) {
   res.sendFile(path.join(__dirname, "./client/build/index.html"));
 });
+
 const PORT = process.env.PORT || 5000;
 app.listen(PORT);
 
