@@ -4,6 +4,7 @@ const keys = require("./config/keys");
 const mongoose = require("mongoose");
 const cookieSession=require('cookie-session')
 const passport = require('passport');
+var path = require("path");
 require('./models/User');
 require("./services/passport");
 
