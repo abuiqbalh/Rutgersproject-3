@@ -19,10 +19,10 @@ class FooterPage extends React.Component {
                             <Col md="6" lg="7" className="text-center text-md-right">
                                 <a className="fb-ic ml-0"><i className="fa fa-facebook white-text mr-lg-4"> </i><img src={facebook} alt-text='logo' width="50" height="50"/></a>
                                 <a className="tw-ic"><i className="fa fa-twitter white-text mr-lg-4"> </i><img src={twitter} width="50" height="50"/></a>
-                                <a className="gplus-ic"><i className="fa fa-google-plus white-text mr-lg-4"> </i><img src={googleplus} style={{ paddingLeft: 0, paddingRight: 10 }} width="50" height="50" /></a>
+                                <a className="gplus-ic" href="/auth/google"><i className="fa fa-google-plus white-text mr-lg-4"> </i><img src={googleplus} style={{ paddingLeft: 0, paddingRight: 10 }} width="50" height="50" /></a>
                                 <a className="li-ic"><i className="fa fa-linkedin white-text mr-lg-4"> </i><img src={linkedin} width="50" height="50"/></a>
                                 <a className="ins-ic"><i className="fa fa-instagram white-text mr-lg-4"> </i><img src={instagram} width="50" height="50"/></a>
-                            </Col>
+                            </Col> 
                         </Row>
                     </Container>
                 </div>

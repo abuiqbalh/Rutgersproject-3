@@ -6,6 +6,7 @@ import FooterPage from "./components/Footer1";
 import Home from "./containers/Home";
 import About from "./containers/About";
 import Login from "./containers/Login";
+import Surveys from "./containers/Surveys"
 import Products from "./containers/Products";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import "./App.css";
@@ -21,6 +22,7 @@ class App extends Component {
             <Route exact path="/about" component={About} />
             <Route exact path="/products" component={Products} />
             <Route exact path="/login" component={Login} />
+            <Route exact path="/surveys" component={Surveys} />
           <FooterPage />
         </div>
         
